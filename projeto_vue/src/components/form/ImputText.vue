@@ -1,9 +1,9 @@
 <template>
-    <input type="text">
+  <input type="text" />
 </template>
 
 <script>
-export default{
-    name: "ImputText"
-}
+export default {
+  name: "ImputText",
+};
 </script>

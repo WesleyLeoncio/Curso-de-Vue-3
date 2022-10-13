@@ -1,9 +1,9 @@
 <template>
-    <input type="submit" value="Enviar">
+  <input type="submit" value="Enviar" />
 </template>
 
 <script>
-export default{
-    name: "Submit"
-}
+export default {
+  name: "Submit",
+};
 </script>

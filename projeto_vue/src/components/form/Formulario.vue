@@ -1,27 +1,25 @@
 <template>
-<div>
+  <div>
     <div>
-      <ImputText/>
+      <ImputText />
     </div>
     <div>
-      <ImputText/>
+      <ImputText />
     </div>
     <div>
-      <Submit/>
+      <Submit />
     </div>
-     
-</div>
-
+  </div>
 </template>
 
 <script>
-import ImputText from "./ImputText.vue"
-import Submit from "./Submit.vue"
-export default{
-    name: "Formulario",
-    components:{
-       ImputText,
-       Submit 
-    }
-}
+import ImputText from "./ImputText.vue";
+import Submit from "./Submit.vue";
+export default {
+  name: "Formulario",
+  components: {
+    ImputText,
+    Submit,
+  },
+};
 </script>
