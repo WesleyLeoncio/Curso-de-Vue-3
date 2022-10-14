@@ -2,12 +2,12 @@
   <div>
     <h1>{{ msg }}</h1>
     <h1>{{ nome }}</h1>
-    <info/>
+    <info />
   </div>
 </template>
 
 <script>
-import Info from "./Info.vue";
+import Info from "./usuario/Info.vue";
 export default {
   name: "OlaMundo",
   components: {
