@@ -1,5 +1,6 @@
 <template>
   <div>
+    <MultiplosEventos />
     <h1>{{ msg }}</h1>
     <h1>{{ nome }}</h1>
     <info />
@@ -8,9 +9,11 @@
 
 <script>
 import Info from "./usuario/Info.vue";
+import MultiplosEventos from "./MultplosEventos.vue";
 export default {
   name: "OlaMundo",
   components: {
+    MultiplosEventos ,
     Info,
   },
   data() {
