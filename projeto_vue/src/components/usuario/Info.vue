@@ -6,6 +6,18 @@
     <div>
       <p v-if="trabalhando_bool">Estou Trabalhando!</p>
       <p v-else>Estou desempregado!</p>
+      <p>Utilizo as seguintes tecnoloogias para back-end:</p>
+      <ul>
+        <li v-for="(technology, index) in backend_tech" :key="index">
+          {{ technology }}
+        </li>
+      </ul>
+      <p>Utilizo as seguintes tecnoloogias para front-end:</p>
+      <ul>
+        <li v-for="technology in frontend_tech" :key="technology.id">
+          {{ technology.language }}
+        </li>
+      </ul>
       <div>
         <button @click="showEmail">{{ textBotton }}</button>
       </div>
@@ -27,6 +39,12 @@ export default {
       email: "email@gmail.com",
       email_bool: false,
       textBotton: "Mostrar e-mail",
+      backend_tech: ["Java", "Node", "C#"],
+      frontend_tech: [
+        { id: 1, language: "Html" },
+        { id: 2, language: "Css" },
+        { id: 3, language: "Js" },
+      ],
     };
   },
   methods: {
