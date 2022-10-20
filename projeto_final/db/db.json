@@ -79,52 +79,28 @@
   ],
   "burgers": [
     {
-      "nome": "Matheus Battisti",
+      "nome": "Wesley Leoncio Da Cruz",
       "carne": "Picanha",
-      "pao": "Italiano Branco",
+      "pao": "3 Queijos",
       "opcionais": [
         "Bacon",
-        "Salame",
-        "Cebola roxa"
+        "Cheddar",
+        "Tomate"
       ],
-      "status": "Finalizado",
+      "status": "Solicitado",
       "id": 1
     },
     {
-      "nome": "João Coelho",
+      "nome": "Neuza ",
       "carne": "Maminha",
-      "pao": "3 Queijos",
+      "pao": "Integral",
       "opcionais": [
-        "Salame",
-        "Cebola roxa"
-      ],
-      "status": "Solicitado",
-      "id": 4
-    },
-    {
-      "nome": "Wesley Leoncio Da Cruz",
-      "carne": "Picanha",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Bacon",
-        "Tomate",
-        "Cheddar"
-      ],
-      "status": "Solicitado",
-      "id": 5
-    },
-    {
-      "nome": "Flores Leticia",
-      "carne": "Alcatra",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [
-        "Bacon",
-        "Salame",
         "Cebola roxa",
-        "Cheddar"
+        "Salame",
+        "Tomate"
       ],
       "status": "Solicitado",
-      "id": 6
+      "id": 2
     }
   ]
 }

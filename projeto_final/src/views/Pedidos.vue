@@ -1,14 +1,19 @@
 <template>
-  <div class="main-container">
-    <h1>Pedidos</h1>
+  <div>
+    <div class="main-container">
+      <h1>Gerenciar pedidos:</h1>
+      <Dashboard />
+    </div>
   </div>
 </template>
 
 <script>
-export default {
-  name: "Pedidos",
-};
-</script>
+import Dashboard from '../components/Dashboard.vue'
 
-<style>
-</style>
+export default {
+  name: 'Pedidos',
+  components: {
+    Dashboard
+  }
+}
+</script>
