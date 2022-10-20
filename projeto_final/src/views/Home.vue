@@ -1,13 +1,16 @@
 <template>
-  <div class="main-container">
-    <h1>Home</h1>
+  <div>
+    <Banner />
+    <div class="main-container">
+      <h1>Monte o seu buger:</h1>
+    </div>
   </div>
 </template>
 
 <script>
-
+import Banner from "../components/Banner.vue";
 export default {
-  components: { },
+  components: { Banner },
   name: "Home",
 };
 </script>
